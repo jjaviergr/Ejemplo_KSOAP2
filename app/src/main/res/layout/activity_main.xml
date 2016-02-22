@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Recetas WS"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:numeric="integer"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Obtener receta" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" android:textSize="26dp"/>
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tipo"
+        android:textColor="#af2222"
+        android:text="" android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_preparacion"
+        android:layout_weight="5.45"
+        android:textColor="#0c8116"
+        android:background="#dad3d3"
+        android:text="" android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_presentacion"
+        android:textColor="#2b517c"
+        android:text="" android:textSize="20dp" />
+
+</LinearLayout>
